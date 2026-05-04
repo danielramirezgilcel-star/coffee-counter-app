@@ -44,7 +44,7 @@ fun CounterUI(
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        if (count >= 10) {
+        if (count == 10) {
             Text(
                 text = "¡Demasiada cafeína!",
                 color = Color.Red,
